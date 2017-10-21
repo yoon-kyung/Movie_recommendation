@@ -12,6 +12,4 @@
 	3. Flask Module을 활용한 추천 웹페이지 구현
 
 ## 3. Explanation of File
-	| **File_name** | Explanation |
-	|:---:|:---:|:---:|
-	|1. crawling.py | 네이버영화 페이지에서 유저별로 ID(앞의 4글자만), 영화제목, 평점을 가져온다. crawling.py 파일은 module로 이용한다.| 
+	1. crawling.py : 네이버영화 페이지에서 유저별로 ID(앞의 4글자만), 영화제목, 평점을 가져온다. crawling.py 파일은 module로 이용한다.
