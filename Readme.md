@@ -13,6 +13,5 @@
 
 ## 3. Explanation of File
 	1. crawling.py : 네이버영화 페이지에서 유저별로 '유저의 ID', '영화제목', '장르', '평점'을 가져온다. 
-	                 여기서 영화 평을 10개 이하로 한 유저는 제외한다.
-	                 (crawling.py 파일은 module로 이용한다.)
-	2. do_crawling : 크롤링을 실행하는 파일
+	                 여기서 영화 평을 10개 이하로 한 유저는 제외한다. (crawling.py 파일은 module로 이용한다.)
+	2. do_crawling.ipynb : 크롤링을 실행하는 파일
