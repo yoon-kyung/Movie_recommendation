@@ -70,7 +70,7 @@ def do_crawl(url):
     url_list = get_user_link(url)
 
     # DB 연결
-    db = MySQLdb.connect('13.124.189.104', 'root', '1435', 'movie_review')
+    db = MySQLdb.connect(server, user, pwd, 'movie_review')
     db.set_character_set('utf8')
     cursor = db.cursor()
 
@@ -111,7 +111,7 @@ def do_crawl(url):
                 score = score_list[num]
 
                 # DB에 데이터를 넣기 위한 쿼리
-                query = """INSERT INTO movie_scores_raw VALUES ('{}', '{}', '{}', '{}')""".format(user_id, title, genre, score)
+                query = """INSERT INTO raw_file VALUES ('{}', '{}', '{}', '{}')""".format(user_id, title, genre, score)
 
                 try:
                     cursor.execute(query)
