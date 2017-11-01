@@ -16,3 +16,5 @@
 	                 여기서 영화 평을 10개 이하로 한 유저는 제외한다. (crawling.py 파일은 module로 이용한다.)
 	2. do_crawling.ipynb : 크롤링을 실행.
                            crawling파일을 import 하여 10,000 페이지를 크롤링 (2000페이지씩 나눠서 실행함)
+	3. Delete_duplication.sql : sql을 통해 중복된 행을 제거한 후 data_set이라는 새로운 데이터를 생성
+	                            (한 아이디당 여러개의 페이지를 가질 수 있기 때문에 중복값이 여러개 생기기 때문)
