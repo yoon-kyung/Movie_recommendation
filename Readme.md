@@ -6,7 +6,7 @@
 
 ## 1. 목표
 
-- 협업필터링을 이용하여 영화 추천 시스템을 구현한다.
+- 사용자 기반의 협업필터링(User-based collaborative filtering)을 이용하여 영화 추천 시스템을 구현한다.
 
 ## 2. Work Flow
 
